@@ -3,6 +3,7 @@
         font-family: 'Poppins', sans-serif;
         padding:0px;
         margin:0px;
+        overflow-x: hidden;
     }
 
 /* CSS rule for Header Element NavBar and Banner */
@@ -82,7 +83,7 @@
 
 /* Animation for Copa Image */
 .copa-logo img{
-    width:556px;
+    width:520px;
     height:438px;
 }
 @keyframes imageSpin {
@@ -104,6 +105,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:0px;
+    margin:0px;
 }
 .player-cards{
     display: grid;
@@ -116,7 +119,7 @@
     padding:15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width:330px;
+    width:300px;
     height:474px;
 }
 .card img{
@@ -252,7 +255,7 @@
 /* Header Responsive */
 /* Header Banner Responsive */
     .copa-logo-title{
-        width:99%;
+        width:100%;
         grid-template-columns: 1fr;
     }
     .copa-title h1{
@@ -288,7 +291,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width:99%;
+        width:100%;
         height:auto;
     }
     .highlight-text{
@@ -328,7 +331,7 @@
 /* News Container */
     /* Footer  */
     .footer-logo img{
-        width:99%;
+        width:100%;
     }
 }    
 
@@ -342,7 +345,7 @@
             height:auto;
         }
         .header-nav{
-            width: 99%;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -362,7 +365,7 @@
     /* Header Banner Responsive */
         .copa-logo-title{
             margin-top: 40px;
-            max-width:99%;
+            max-width:100%;
             grid-template-columns: 1fr 1fr;
             column-gap: none;
         }
@@ -402,7 +405,7 @@
         .highlights{
             align-items: center;
             justify-content: center;
-            width:99%;
+            width:100%;
             height:auto;
         }
         .highlight-text{
