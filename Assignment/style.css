@@ -247,7 +247,7 @@
 @media only screen and (max-width: 480px){
 /* Header Responsive */
     #header{
-        max-width:480px;
+        max-width:100%;
         height:auto;
     }
     .header-nav{
@@ -277,12 +277,19 @@
     }  
 /* Header Banner Responsive */ 
 /* Player Card Responsive */
+    .card{
+        padding: 15px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+        width: 290px;
+        height: 474px;
+    }
     .player-cards{
         display: grid;
         grid-template-columns:1fr;
     }
     .player-info{
-        width:300px;
+        width:285px;
         margin-left: 20px;
     }
 /* Player Card Responsive */
@@ -311,8 +318,8 @@
     }
    
     .featuredImage img{
-        width:340px;
-        height:248px; 
+        width:100%;
+        height:auto; 
     }
     .watch-highlight-button{
         margin-left: 10px;
